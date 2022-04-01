@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1648821050 source:c:\users\bie_animation\onedrive\desktop\importants\eep\matemática discreta\aula 4 dia 31.03 - triângulo de pascal\triângulo_de_pascal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
