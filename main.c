@@ -7,7 +7,7 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
 
-    long int n, linhas, count;
+    long int n, linhas = 1;
 
     printf("Digite o valor de 'n': ");
     scanf("%d%*c", &n);
@@ -24,7 +24,6 @@ int main()
     printf("n \t| \t     Coeficientes de (a+b)^n \t\t| \tnº de subconjuntos\n");
 
     while (linhas <= n) {
-        //power = pow(2, linhas);
         printf("%d \t|   ", linhas);
         for (int i = 0; i <= linhas; i++) {
             printf("%d", ( fatorial(linhas)/(fatorial(linhas-i)*fatorial(i) )));
